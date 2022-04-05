@@ -5,3 +5,100 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+nav {
+  background-color: #2081c3;
+  padding: 0.5em 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.container img {
+  max-width: 70%;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  padding: 1em;
+}
+nav a:hover {
+  text-decoration: none;
+  color: bisque;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 50%;
+  background-color: #2081c3;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+.beers {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row;
+  justify-content: center; */
+}
+
+.beers a {
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+
+  align-items: center;
+  flex-basis: 30%;
+  margin: 2em 0;
+  color: black;
+}
+
+.beers a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.beers a img {
+  max-width: 4em;
+}
+
+footer {
+  background-color: #0a2c42;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1em;
+  color: white;
+}

@@ -1,5 +1,5 @@
+{{> navbar}}
 
-
-<div>{{#each beersFromApi}}
-  {{> beerpartial this}}
+<div class="beers">{{#each beersFromApi}}
+  <a href='/beers/{{id}}'>{{> beerpartial this}}</a>
 {{/each}}</div>
